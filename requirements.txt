@@ -1,0 +1,7 @@
+# Pinned to known-stable versions.
+# NOTE: mediapipe 1.0.0 and opencv-python 5.x (late-2025/2026 releases) have a
+# broken internal import chain as of this writing (see
+# github.com/google-ai-edge/mediapipe issue #6204). Stick to these versions
+# until that's confirmed fixed upstream.
+opencv-python==4.10.0.84
+mediapipe==0.10.21
